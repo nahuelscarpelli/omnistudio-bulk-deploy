@@ -1,0 +1,19 @@
+{
+    "sourceOrg": "MyDevOrg",
+    "targetOrgs": ["MyQA", "MyUAT"],
+    "baseDir": "./omnistudio",
+
+    "components": [
+        { "name": "GetCustomerInfo",       "type": "DM" },
+        { "name": "UpsertAccountData",     "type": "DM" },
+        { "name": "FetchProductCatalog",   "type": "DM" },
+
+        { "name": "CreateOrderProcess",    "type": "IP" },
+        { "name": "ValidateAddress",       "type": "IP" },
+
+        { "name": "CustomerSummaryCard",   "type": "FC" },
+
+        { "name": "CheckoutFlow",          "type": "OS" },
+        { "name": "OnboardingWizard",      "type": "OS", "id": "0jNxx0000001234AAA" }
+    ]
+}

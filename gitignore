@@ -1,0 +1,13 @@
+# Exported OmniStudio components (don't commit these)
+omnistudio/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
